@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartInterview.AIWorker", "SmartInterview.AIWorker.csproj", "{31C3A4D9-4883-42A6-B787-62150A18E36D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C3A4D9-4883-42A6-B787-62150A18E36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C3A4D9-4883-42A6-B787-62150A18E36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C3A4D9-4883-42A6-B787-62150A18E36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C3A4D9-4883-42A6-B787-62150A18E36D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D4A3E95-10D9-448A-8B0C-F45E46167D4D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,68 @@
+﻿@using SmartInterviewAPI.Models
+@model EmailConfirmModel
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Welcome to Geo</title>
+    <style>
+                 body {
+
+
+             {
+                 font-family: Arial, sans-serif;
+                 line-height: 1.6;
+                     c
+        olor: #333;
+             }
+
+
+             }
+
+             .container {
+
+             {
+                 max-width: 600px;
+                 margin: 0 auto;
+                 padding: 20px;
+                 background-color: #f9f9f9;
+                 border-radius: 5px;
+             }
+
+             }
+
+             h1 {
+
+             {
+                 color: #2c3e50;
+             }
+
+             }
+
+             .highlight {
+
+             {
+                 background-color: #e74c3c;
+                 color: white;
+                 padding: 5px 10px;
+                 border-radius: 3px;
+             }
+
+             }
+    </style>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+    <h2>Welcome to Smart Interview @Model.Name!</h2>
+    <p>Thank you for registering.</p>
+    <p>Please confirm your email address by clicking the link below:</p>
+    <p>
+        <a href="@Model.ConfirmationLink" style="color: white; background-color: #007bff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">
+            Confirm Email
+        </a>
+    </p>
+    <p>If the button doesn’t work, copy and paste this link into your browser:</p>
+    <p><small>@Model.ConfirmationLink</small></p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+@SmartInterviewAPI_HostAddress = http://localhost:5242
+
+GET {{SmartInterviewAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

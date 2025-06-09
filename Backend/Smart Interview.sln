@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartInterviewAPI", "SmartInterviewAPI\SmartInterviewAPI.csproj", "{5342C748-02DB-CBC2-20C9-48BD8BBE83DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartInterview.AIWorker", "SmartInterview.AIWorker\SmartInterview.AIWorker.csproj", "{FEC96329-8D1A-4FF0-8974-D01AC36B17A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5342C748-02DB-CBC2-20C9-48BD8BBE83DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5342C748-02DB-CBC2-20C9-48BD8BBE83DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5342C748-02DB-CBC2-20C9-48BD8BBE83DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5342C748-02DB-CBC2-20C9-48BD8BBE83DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC96329-8D1A-4FF0-8974-D01AC36B17A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC96329-8D1A-4FF0-8974-D01AC36B17A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC96329-8D1A-4FF0-8974-D01AC36B17A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC96329-8D1A-4FF0-8974-D01AC36B17A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {434BA70E-6E76-48BA-9824-BDFC948EB3EA}
+	EndGlobalSection
+EndGlobal
